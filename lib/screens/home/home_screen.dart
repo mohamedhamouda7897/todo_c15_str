@@ -9,7 +9,7 @@ import 'package:todo_c15_str/screens/home/tabs/events_tab.dart';
 import 'package:todo_c15_str/screens/home/tabs/fav_tab.dart';
 import 'package:todo_c15_str/screens/home/tabs/map_tab.dart';
 import 'package:todo_c15_str/screens/home/tabs/profile_tab.dart';
-import 'package:todo_c15_str/screens/register/login_screen.dart';
+import 'package:todo_c15_str/screens/register/login/login_screen.dart';
 
 import '../../providers/app_provider.dart';
 

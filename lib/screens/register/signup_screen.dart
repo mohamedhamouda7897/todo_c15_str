@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:todo_c15_str/firebase/firebase_manager.dart';
 import 'package:todo_c15_str/screens/home/home_screen.dart';
-import 'package:todo_c15_str/screens/register/login_screen.dart';
+import 'package:todo_c15_str/screens/register/login/login_screen.dart';
 
 class SignupScreen extends StatelessWidget {
   static const String routeName = "SignupScreen";

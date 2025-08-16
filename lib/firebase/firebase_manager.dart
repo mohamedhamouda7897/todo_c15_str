@@ -62,34 +62,6 @@ class FirebaseManager {
     return docRef.data();
   }
 
-  static login(
-    String emailAddress,
-    String password,
-    Function onSuccess,
-    Function onError,
-  ) async {
-    try {
-      final credential = await FirebaseAuth.instance.signInWithEmailAndPassword(
-        email: emailAddress,
-        password: password,
-      );
-      // if (credential.user_model!.emailVerified) {
-
-      onSuccess();
-      // } else {
-      //   onError("Please verify your mail , and try again");
-      // }
-    } on FirebaseAuthException catch (e) {
-      onError(e.message);
-
-      if (e.code == 'user-not-found') {
-        print('No user found for that email.');
-      } else if (e.code == 'wrong-password') {
-        print('Wrong password provided for that user.');
-      }
-    }
-  }
-
   static signUp(
     String email,
     String password,

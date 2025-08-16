@@ -9,7 +9,7 @@ import 'package:todo_c15_str/providers/theme_provider.dart';
 import 'package:todo_c15_str/screens/add_event/add_event_screen.dart';
 import 'package:todo_c15_str/screens/home/home_screen.dart';
 import 'package:todo_c15_str/screens/intro/introduction_screen.dart';
-import 'package:todo_c15_str/screens/register/login_screen.dart';
+import 'package:todo_c15_str/screens/register/login/login_screen.dart';
 import 'package:todo_c15_str/screens/register/signup_screen.dart';
 
 import 'core/theme/theming.dart';

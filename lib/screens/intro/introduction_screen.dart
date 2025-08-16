@@ -5,7 +5,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'package:todo_c15_str/providers/theme_provider.dart';
 import 'package:todo_c15_str/screens/home/home_screen.dart';
-import 'package:todo_c15_str/screens/register/login_screen.dart';
+import 'package:todo_c15_str/screens/register/login/login_screen.dart';
 import 'dart:ui' as ui;
 
 class IntroductionScreen extends StatelessWidget {
